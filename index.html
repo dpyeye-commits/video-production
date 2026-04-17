@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CINE_ENGINE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Top Navigation -->
+        <header class="top-nav">
+            <div class="logo">
+                <span class="material-symbols-outlined logo-icon">videocam</span>
+                <span class="logo-text">CINE_ENGINE</span>
+            </div>
+            <div class="panel-counter"><span id="current-panel">1</span> / 8</div>
+            <div class="settings">
+                <span class="material-symbols-outlined">settings</span>
+            </div>
+        </header>
+
+        <!-- Panel Wrapper -->
+        <div class="panels-wrapper">
+
+            <!-- ─── PANEL 1: INTRO ─── -->
+            <section class="panel active" id="panel-1">
+                <div class="panel-bg" style="background-image: url('https://images.unsplash.com/photo-1519608487953-e999c86e7455?q=80&w=1080&auto=format&fit=crop')"></div>
+                <div class="panel-overlay"></div>
+                <div class="panel-content center">
+                    <div class="badge">
+                        <span class="dot"></span>
+                        <span class="badge-text">PRO EDITION ACTIVE</span>
+                    </div>
+                    <h1 class="main-title">DIRECTOR'S CUT</h1>
+                    <p class="subtitle">AI Cinematic Studio: Orchestrate High-Fidelity Visuals with Neural Precision.</p>
+                    <div class="btn-container">
+                        <div class="btn-corner-tl"></div>
+                        <button class="start-btn" onclick="goPanel(2)">
+                            시작하기 <span class="material-symbols-outlined btn-arrow">arrow_forward</span>
+                        </button>
+                        <div class="btn-corner-br"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ─── PANEL 2: SIGNUP & GALLERY ─── -->
+            <section class="panel" id="panel-2">
+                <div class="panel-bg" style="background-image: url('https://images.unsplash.com/photo-1485846234645-a62644f84728?q=80&w=1080&auto=format&fit=crop')"></div>
+                <div class="panel-overlay dark"></div>
+                <div class="panel-content">
+                    <div class="section-label">STEP 0</div>
+                    <h2 class="panel-title">SIGNUP &amp; GALLERY</h2>
+                    <p class="panel-desc">프로젝트를 시작하거나 기존 작업물을 불러오세요.</p>
+
+                    <div class="gallery-grid">
+                        <div class="gallery-card new-card" onclick="goPanel(3)">
+                            <span class="material-symbols-outlined gc-icon">add_circle</span>
+                            <span class="gc-label">새 프로젝트</span>
+                        </div>
+                        <div class="gallery-card">
+                            <div class="gc-thumb" style="background:linear-gradient(135deg,#1a1a2e,#16213e)"></div>
+                            <span class="gc-label">Project_01</span>
+                            <span class="gc-meta">2026.04.10</span>
+                        </div>
+                        <div class="gallery-card">
+                            <div class="gc-thumb" style="background:linear-gradient(135deg,#2d1b00,#5a3600)"></div>
+                            <span class="gc-label">Project_02</span>
+                            <span class="gc-meta">2026.03.28</span>
+                        </div>
+                        <div class="gallery-card">
+                            <div class="gc-thumb" style="background:linear-gradient(135deg,#0a1628,#1a3a5c)"></div>
+                            <span class="gc-label">Project_03</span>
+                            <span class="gc-meta">2026.03.15</span>
+                        </div>
+                    </div>
+
+                    <div class="input-row">
+                        <input class="ce-input" type="text" placeholder="프로젝트명 입력..." />
+                        <button class="next-btn" onclick="goPanel(3)">
+                            <span class="material-symbols-outlined">arrow_forward</span>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ─── PANEL 3: 시나리오 설계 ─── -->
+            <section class="panel" id="panel-3">
+                <div class="panel-bg dark-plain"></div>
+                <div class="panel-content">
+                    <div class="section-label">STEP 1</div>
+                    <h2 class="panel-title">시나리오 설계</h2>
+                    <p class="panel-desc">영상의 주제와 구조를 정의합니다.</p>
+
+                    <div class="form-group">
+                        <label class="ce-label">장르</label>
+                        <div class="chip-group">
+                            <div class="chip active">시네마틱</div>
+                            <div class="chip">다큐멘터리</div>
+                            <div class="chip">뮤직비디오</div>
+                            <div class="chip">광고</div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="ce-label">주제 / 컨셉</label>
+                        <textarea class="ce-textarea" rows="3" placeholder="영상의 핵심 메시지와 분위기를 입력하세요..."></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="ce-label">목표 러닝타임</label>
+                        <div class="slider-row">
+                            <input type="range" class="ce-slider" min="30" max="600" value="120" id="runtime-slider" oninput="document.getElementById('runtime-val').textContent=this.value+'s'">
+                            <span class="slider-val" id="runtime-val">120s</span>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="ce-label">씬 구성</label>
+                        <div class="scene-list">
+                            <div class="scene-item"><span class="scene-num">01</span><input class="ce-input-sm" type="text" placeholder="오프닝 씬" /></div>
+                            <div class="scene-item"><span class="scene-num">02</span><input class="ce-input-sm" type="text" placeholder="메인 씬" /></div>
+                            <div class="scene-item"><span class="scene-num">03</span><input class="ce-input-sm" type="text" placeholder="클로징 씬" /></div>
+                        </div>
+                    </div>
+
+                    <button class="full-btn" onclick="goPanel(4)">다음 단계 <span class="material-symbols-outlined">arrow_forward</span></button>
+                </div>
+            </section>
+
+            <!-- ─── PANEL 4: 디렉터스 컷 최적화 ─── -->
+            <section class="panel" id="panel-4">
+                <div class="panel-bg" style="background-image: url('https://images.unsplash.com/photo-1535016120720-40c646be5580?q=80&w=1080&auto=format&fit=crop')"></div>
+                <div class="panel-overlay dark"></div>
+                <div class="panel-content">
+                    <div class="section-label">STEP 2</div>
+                    <h2 class="panel-title">디렉터스 컷<br><span class="yellow">최적화</span></h2>
+                    <p class="panel-desc">AI 엔진이 컷 타이밍과 구성을 최적화합니다.</p>
+
+                    <div class="ai-card">
+                        <div class="ai-card-header">
+                            <span class="material-symbols-outlined ai-icon">auto_awesome</span>
+                            <span>AI 분석 완료</span>
+                            <span class="ai-badge">NEURAL v2</span>
+                        </div>
+                        <div class="ai-metrics">
+                            <div class="metric"><span class="metric-val">94<small>%</small></span><span class="metric-label">임팩트 스코어</span></div>
+                            <div class="metric"><span class="metric-val">87<small>%</small></span><span class="metric-label">리듬 정합도</span></div>
+                            <div class="metric"><span class="metric-val">4.2<small>s</small></span><span class="metric-label">평균 컷 길이</span></div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="ce-label">컷 강도</label>
+                        <div class="slider-row">
+                            <input type="range" class="ce-slider" min="1" max="10" value="7" id="cut-slider" oninput="document.getElementById('cut-val').textContent=this.value">
+                            <span class="slider-val" id="cut-val">7</span>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="ce-label">트랜지션 스타일</label>
+                        <div class="chip-group">
+                            <div class="chip active">하드 컷</div>
+                            <div class="chip">디졸브</div>
+                            <div class="chip">스매쉬 컷</div>
+                            <div class="chip">매치 컷</div>
+                        </div>
+                    </div>
+
+                    <button class="full-btn" onclick="goPanel(5)">다음 단계 <span class="material-symbols-outlined">arrow_forward</span></button>
+                </div>
+            </section>
+
+            <!-- ─── PANEL 5: 광학 및 리그 ─── -->
+            <section class="panel" id="panel-5">
+                <div class="panel-bg dark-plain"></div>
+                <div class="panel-content">
+                    <div class="section-label">STEP 3</div>
+                    <h2 class="panel-title">광학 및 <span class="yellow">리그</span></h2>
+                    <p class="panel-desc">카메라 렌즈와 리그 설정으로 시각적 언어를 결정합니다.</p>
+
+                    <div class="spec-grid">
+                        <div class="spec-card">
+                            <span class="material-symbols-outlined spec-icon">camera</span>
+                            <span class="spec-title">렌즈</span>
+                            <div class="chip-group small">
+                                <div class="chip active">24mm</div>
+                                <div class="chip">35mm</div>
+                                <div class="chip">50mm</div>
+                                <div class="chip">85mm</div>
+                            </div>
+                        </div>
+                        <div class="spec-card">
+                            <span class="material-symbols-outlined spec-icon">aperture</span>
+                            <span class="spec-title">조리개</span>
+                            <div class="slider-row">
+                                <input type="range" class="ce-slider" min="1" max="22" value="2" step="0.5" id="aperture-slider" oninput="document.getElementById('aperture-val').textContent='f/'+this.value">
+                                <span class="slider-val" id="aperture-val">f/2</span>
+                            </div>
+                        </div>
+                        <div class="spec-card">
+                            <span class="material-symbols-outlined spec-icon">videocam</span>
+                            <span class="spec-title">리그 타입</span>
+                            <div class="chip-group small">
+                                <div class="chip active">핸드헬드</div>
+                                <div class="chip">짐벌</div>
+                                <div class="chip">슬라이더</div>
+                                <div class="chip">드론</div>
+                            </div>
+                        </div>
+                        <div class="spec-card">
+                            <span class="material-symbols-outlined spec-icon">shutter_speed</span>
+                            <span class="spec-title">셔터 각도</span>
+                            <div class="chip-group small">
+                                <div class="chip">90°</div>
+                                <div class="chip active">180°</div>
+                                <div class="chip">270°</div>
+                                <div class="chip">360°</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="full-btn" onclick="goPanel(6)">다음 단계 <span class="material-symbols-outlined">arrow_forward</span></button>
+                </div>
+            </section>
+
+            <!-- ─── PANEL 6: 무드 및 조명 ─── -->
+            <section class="panel" id="panel-6">
+                <div class="panel-bg" style="background-image: url('https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=1080&auto=format&fit=crop')"></div>
+                <div class="panel-overlay dark"></div>
+                <div class="panel-content">
+                    <div class="section-label">STEP 4</div>
+                    <h2 class="panel-title">무드 및 <span class="yellow">조명</span></h2>
+                    <p class="panel-desc">감성적 톤과 조명 방식을 설정합니다.</p>
+
+                    <div class="mood-grid">
+                        <div class="mood-card active" style="--mc:linear-gradient(135deg,#1a0a00,#5a2800)">
+                            <span class="mood-name">GOLDEN HOUR</span>
+                        </div>
+                        <div class="mood-card" style="--mc:linear-gradient(135deg,#000d1a,#002040)">
+                            <span class="mood-name">NIGHT NOIR</span>
+                        </div>
+                        <div class="mood-card" style="--mc:linear-gradient(135deg,#0a0a0a,#2a2a2a)">
+                            <span class="mood-name">MONOCHROME</span>
+                        </div>
+                        <div class="mood-card" style="--mc:linear-gradient(135deg,#001a10,#004030)">
+                            <span class="mood-name">EMERALD</span>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="ce-label">조명 강도</label>
+                        <div class="slider-row">
+                            <input type="range" class="ce-slider" min="0" max="100" value="65" id="light-slider" oninput="document.getElementById('light-val').textContent=this.value+'%'">
+                            <span class="slider-val" id="light-val">65%</span>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="ce-label">광원 설정</label>
+                        <div class="chip-group">
+                            <div class="chip active">Key Light</div>
+                            <div class="chip">Fill Light</div>
+                            <div class="chip">Back Light</div>
+                            <div class="chip">Practical</div>
+                        </div>
+                    </div>
+
+                    <button class="full-btn" onclick="goPanel(7)">다음 단계 <span class="material-symbols-outlined">arrow_forward</span></button>
+                </div>
+            </section>
+
+            <!-- ─── PANEL 7: 프로세스 색변환 ─── -->
+            <section class="panel" id="panel-7">
+                <div class="panel-bg dark-plain"></div>
+                <div class="panel-content">
+                    <div class="section-label">STEP 5</div>
+                    <h2 class="panel-title">프로세스 <span class="yellow">색변환</span></h2>
+                    <p class="panel-desc">LUT과 색보정으로 최종 시각 톤을 완성합니다.</p>
+
+                    <div class="lut-grid">
+                        <div class="lut-card active" style="--lc:linear-gradient(135deg,#2d1f00,#8a5a00,#ffd600)">
+                            <span class="lut-name">FILM GOLD</span>
+                        </div>
+                        <div class="lut-card" style="--lc:linear-gradient(135deg,#001020,#003060,#4090c0)">
+                            <span class="lut-name">CINEMATIC BLUE</span>
+                        </div>
+                        <div class="lut-card" style="--lc:linear-gradient(135deg,#1a0010,#500030,#c00060)">
+                            <span class="lut-name">NEON CRIMSON</span>
+                        </div>
+                        <div class="lut-card" style="--lc:linear-gradient(135deg,#0a0a0a,#1a1a1a,#3a3a3a)">
+                            <span class="lut-name">SILVER NOIR</span>
+                        </div>
+                    </div>
+
+                    <div class="color-controls">
+                        <div class="cc-row">
+                            <span class="cc-label">노출</span>
+                            <input type="range" class="ce-slider cc-slider" min="-5" max="5" value="0" step="0.1">
+                            <span class="cc-val">0</span>
+                        </div>
+                        <div class="cc-row">
+                            <span class="cc-label">대비</span>
+                            <input type="range" class="ce-slider cc-slider" min="-100" max="100" value="20" step="1">
+                            <span class="cc-val">20</span>
+                        </div>
+                        <div class="cc-row">
+                            <span class="cc-label">채도</span>
+                            <input type="range" class="ce-slider cc-slider" min="-100" max="100" value="15" step="1">
+                            <span class="cc-val">15</span>
+                        </div>
+                        <div class="cc-row">
+                            <span class="cc-label">색온도</span>
+                            <input type="range" class="ce-slider cc-slider" min="2000" max="10000" value="5500" step="100">
+                            <span class="cc-val">5500K</span>
+                        </div>
+                    </div>
+
+                    <button class="full-btn" onclick="goPanel(8)">최종 출력 <span class="material-symbols-outlined">arrow_forward</span></button>
+                </div>
+            </section>
+
+            <!-- ─── PANEL 8: 영상 출력 ─── -->
+            <section class="panel" id="panel-8">
+                <div class="panel-bg" style="background-image: url('https://images.unsplash.com/photo-1536440136628-849c177e76a1?q=80&w=1080&auto=format&fit=crop')"></div>
+                <div class="panel-overlay dark"></div>
+                <div class="panel-content center">
+                    <div class="badge">
+                        <span class="dot green"></span>
+                        <span class="badge-text">RENDER READY</span>
+                    </div>
+                    <h2 class="main-title" style="font-size:40px">영상 출력</h2>
+                    <p class="subtitle">모든 설정이 완료되었습니다. 렌더링을 시작하세요.</p>
+
+                    <div class="export-specs">
+                        <div class="es-row"><span class="es-label">해상도</span>
+                            <div class="chip-group">
+                                <div class="chip">1080p</div>
+                                <div class="chip active">4K</div>
+                                <div class="chip">8K</div>
+                            </div>
+                        </div>
+                        <div class="es-row"><span class="es-label">포맷</span>
+                            <div class="chip-group">
+                                <div class="chip active">H.264</div>
+                                <div class="chip">H.265</div>
+                                <div class="chip">ProRes</div>
+                            </div>
+                        </div>
+                        <div class="es-row"><span class="es-label">프레임레이트</span>
+                            <div class="chip-group">
+                                <div class="chip">24fps</div>
+                                <div class="chip active">30fps</div>
+                                <div class="chip">60fps</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="btn-container" style="margin-top:24px">
+                        <div class="btn-corner-tl"></div>
+                        <button class="start-btn" id="render-btn" onclick="startRender()">
+                            렌더링 시작 <span class="material-symbols-outlined btn-arrow">play_arrow</span>
+                        </button>
+                        <div class="btn-corner-br"></div>
+                    </div>
+
+                    <div class="render-progress hidden" id="render-progress">
+                        <div class="progress-bar-bg">
+                            <div class="progress-bar-fill" id="progress-fill"></div>
+                        </div>
+                        <span class="progress-label" id="progress-label">0%</span>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+        <!-- /panels-wrapper -->
+
+        <!-- Bottom Status -->
+        <div class="status-bar">
+            <div class="status-left">
+                <span class="status-icon"></span> POWERED BY CINE_ENGINE
+            </div>
+            <div class="status-right">
+                <span class="material-symbols-outlined lock-icon">lock</span> ENCRYPTED
+            </div>
+        </div>
+
+        <!-- Bottom Navigation -->
+        <nav class="bottom-nav">
+            <div class="nav-item active" onclick="goPanel(1)">
+                <span class="material-symbols-outlined play-fill">play_circle</span>
+            </div>
+            <div class="nav-item" onclick="goPanel(2)">
+                <span class="material-symbols-outlined">grid_view</span>
+            </div>
+            <div class="nav-item" onclick="goPanel(3)">
+                <span class="material-symbols-outlined">history</span>
+            </div>
+            <div class="nav-item" onclick="goPanel(4)">
+                <span class="material-symbols-outlined">person</span>
+            </div>
+        </nav>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
