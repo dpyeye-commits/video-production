@@ -46,6 +46,15 @@ document.addEventListener('DOMContentLoaded', () => {
         startBtn.style.boxShadow = 'none';
     });
 
+    // Handle Start Button Click
+    startBtn.addEventListener('click', () => {
+        // Add a small delay for a cinematic feel
+        startBtn.style.transform = 'scale(0.95)';
+        setTimeout(() => {
+            window.location.href = 'dashboard.html';
+        }, 300);
+    });
+
     // 3. Subtle Parallax on Mouse Move
     const appContainer = document.querySelector('.app-container');
     document.addEventListener('mousemove', (e) => {

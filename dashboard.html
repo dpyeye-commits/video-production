@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CINE_ENGINE - Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="dashboard-page">
+    <div class="app-container dashboard-bg">
+        <!-- Top Navigation -->
+        <header class="top-nav">
+            <div class="logo">
+                <span class="material-symbols-outlined logo-icon">videocam</span>
+                <span class="logo-text">CINE_ENGINE</span>
+            </div>
+            <div class="header-center">
+                <div class="search-bar">
+                    <span class="material-symbols-outlined">search</span>
+                    <span>SEARCH PROJECTS...</span>
+                </div>
+            </div>
+            <div class="settings">
+                <span class="material-symbols-outlined">settings</span>
+            </div>
+        </header>
+
+        <!-- Main Content: Dashboard Grid -->
+        <main class="content dashboard-content">
+            <div class="section-header">
+                <h2 class="section-title">ACTIVE PROJECTS</h2>
+                <div class="pro-tag">PRO</div>
+            </div>
+
+            <div class="project-grid">
+                <!-- Project 1 -->
+                <div class="project-card active">
+                    <div class="card-thumb" style="background-image: url('https://images.unsplash.com/photo-1492691523567-6170c24dac01?q=80&w=400&auto=format&fit=crop');">
+                        <div class="card-overlay">
+                            <span class="material-symbols-outlined">play_arrow</span>
+                        </div>
+                    </div>
+                    <div class="card-info">
+                        <h3>Cyber City Night</h3>
+                        <p>Neural Visuals v2.4</p>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="card-thumb" style="background-image: url('https://images.unsplash.com/photo-1533929736458-ca588d08c8be?q=80&w=400&auto=format&fit=crop');"></div>
+                    <div class="card-info">
+                        <h3>Desert Storm AI</h3>
+                        <p>High-Fidelity Render</p>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="card-thumb" style="background-image: url('https://images.unsplash.com/photo-1514565131-fce0801e5785?q=80&w=400&auto=format&fit=crop');"></div>
+                    <div class="card-info">
+                        <h3>Abstract Flow</h3>
+                        <p>Generative Art v1.0</p>
+                    </div>
+                </div>
+
+                <!-- New Project Button -->
+                <div class="project-card new-project">
+                    <div class="card-thumb">
+                        <span class="material-symbols-outlined">add</span>
+                    </div>
+                    <div class="card-info">
+                        <h3>NEW PROJECT</h3>
+                        <p>Start with AI</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Bottom Navigation -->
+        <nav class="bottom-nav">
+            <div class="nav-item">
+                <span class="material-symbols-outlined">play_circle</span>
+            </div>
+            <div class="nav-item active">
+                <span class="material-symbols-outlined">grid_view</span>
+            </div>
+            <div class="nav-item">
+                <span class="material-symbols-outlined">history</span>
+            </div>
+            <div class="nav-item">
+                <span class="material-symbols-outlined">person</span>
+            </div>
+        </nav>
+    </div>
+</body>
+</html>
