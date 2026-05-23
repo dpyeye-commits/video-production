@@ -1,2 +1,6 @@
 .DS_Store
 .claude/
+.gemini_key
+.env
+.env.local
+ebooks/*.epub
