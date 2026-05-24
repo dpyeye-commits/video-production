@@ -1,0 +1,79 @@
+---
+title: "레거시 미디어와 생성형 AI 미디어의 심리치유 효과 비교"
+shorttitle: "AI 미디어와 심리치유"
+author:
+  - name: "최감독"
+    affiliation: "1"
+affiliation:
+  - id: "1"
+    institution: "중부대학교 대학원"
+abstract: |
+  본 연구는 레거시 미디어와 생성형 AI 미디어가 수용자의 심리치유 및 인식태도 변화에
+  미치는 효과를 순차적 설명 혼합연구로 비교하였다. 사전-사후 설계(N = 200, 2집단)에서
+  혼합 ANOVA, ANCOVA, 병렬 이중매개(진정성 지각·현존감), 다집단 구조방정식을 적용하였다.
+  (※ 현재 수치는 파이프라인 검증용 시뮬레이션 데이터 기반이며, 실제 데이터 수집 후 자동 갱신된다.)
+keywords: ["영상치유", "생성형 AI", "진정성 지각", "현존감", "구조방정식"]
+bibliography: ["r-references.bib"]
+floatsintext: yes
+documentclass: "apa7"
+output: papaja::apa6_docx
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(papaja)
+source("00_models.R")
+ax <- function(m) m$anova_table
+pf <- function(p) ifelse(p < .001, "< .001", paste0("= ", formatC(p, format = "f", digits = 3)))
+H1F <- ax(aov_fit)["time","F"]; H1p <- ax(aov_fit)["time","Pr(>F)"]; H1g <- ax(aov_fit)["time","ges"]
+H2F <- ax(aov_fit)["group:time","F"]; H2p <- ax(aov_fit)["group:time","Pr(>F)"]
+H3F <- anc_aov["group","F value"]; H3p <- anc_aov["group","Pr(>F)"]; H3e <- anc_eta$Eta2_partial[2]
+ind <- med_pe[med_pe$op == ":=", ]
+```
+
+# 연구 방법
+
+## 참가자 및 설계
+
+참가자는 총 `r N`명이며, 레거시 미디어 집단과 생성형 AI 미디어 집단에 무선 배정되었다.
+연구는 사전-사후 측정의 2(집단) × 2(시기) 혼합 설계를 따랐다.
+
+## 측정 도구
+
+진정성 지각, 현존감, 치유효과는 각 3문항으로 측정하였으며, 내적 일관성 신뢰도는
+Cronbach's α = `r printnum(rel[1])`–`r printnum(rel[3])`로 양호하였다.
+
+## 분석 방법
+
+가설별로 혼합 ANOVA(H1·H2), ANCOVA(H3), 부트스트랩 병렬 이중매개(H4),
+다집단 측정 동일성 검증(H5)을 적용하였다. 분석은 R의 `afex`, `car`,
+`lavaan`, `semTools` 패키지로 수행하였다.
+
+# 결과
+
+**시기 주효과(H1).** 인식태도의 시기 주효과가 유의하였다,
+*F*(1, 198) = `r printnum(H1F)`, *p* `r pf(H1p)`, $\eta^2_G$ = `r printnum(H1g)`.
+
+**집단 × 시기 상호작용(H2).** 상호작용이 유의하였다,
+*F*(1, 198) = `r printnum(H2F)`, *p* `r pf(H2p)`. 단순주효과 분석 결과
+AI 집단의 변화가 레거시 집단보다 컸다.
+
+**ANCOVA(H3).** 사전 미디어 신뢰도를 통제한 후 집단의 사후 인식 차이가 유의하였다,
+*F*(1, 197) = `r printnum(H3F)`, *p* `r pf(H3p)`, partial $\eta^2$ = `r printnum(H3e)`.
+
+**병렬 이중매개(H4).** 진정성 지각의 간접효과
+(*b* = `r printnum(ind$est[1])`, 95% BC CI [`r printnum(ind$ci.lower[1])`, `r printnum(ind$ci.upper[1])`])와
+현존감의 간접효과(*b* = `r printnum(ind$est[2])`, 95% BC CI [`r printnum(ind$ci.lower[2])`, `r printnum(ind$ci.upper[2])`])가
+모두 유의하였다.
+
+**다집단 측정 동일성(H5).** 절편동일성(scalar) 수준까지 측정 동일성이 확보되었다.
+형태동일성 모형의 적합도는 양호하였다, CFI = `r printnum(cfg_fit["cfi"])`,
+RMSEA = `r printnum(cfg_fit["rmsea"])`, SRMR = `r printnum(cfg_fit["srmr"])`.
+
+# 논의
+
+(시뮬레이션 검증 단계. 실제 데이터 수집 후 본 절을 작성한다.)
+
+\newpage
+
+# References

@@ -18,7 +18,7 @@
 
 ## 국문초록
 
-본 연구는 영상치료(video therapy)의 치료 기제를 고전·1차 이론에 정박하여 심층적으로 재구성하고, 생성형 인공지능(generative AI) 기반 '영상치유'가 각 기제를 어떻게 구현·강화할 수 있는지를 (a) AI 강화 메커니즘, (b) 실현 조건, (c) 미충족 시 실패 양태의 세 축으로 분석하여 그 가능성과 한계를 구조적으로 규명하는 데 목적이 있다. 영상치료는 동일시와 투사, 정서적 정화(catharsis), 보편성(universality), 관찰학습, 정서 조절, 그리고 치료적 대화의 매개라는 정교한 기제 위에서 발전해 왔으며, 그 효과는 국내외 연구를 통해 보고되어 왔다. 본 연구는 이들 기제를 정신역동 이론, Scheff의 정화 모형, Bandura의 사회학습이론, Foa와 Kozak의 정서처리이론, Gallese와 Goldman의 체화된 시뮬레이션론, Green과 Brock의 서사 수송 이론, McAdams의 내러티브 정체성 이론, Deci와 Ryan의 자기결정성 이론, 그리고 Bordin의 작업동맹 개념에 정박하여 더 깊이 전개하였다. 텍스트-투-비디오(text-to-video) 생성 모델의 발전으로 개인 맞춤형 영상을 즉시 생성하는 일이 가능해지면서, AI 영상치유는 이들 기제를 새로운 방식으로 구현할 잠재력을 지니게 되었다. 분석 결과, AI 영상치유는 맞춤성·즉시성·상호작용성을 통해 동일시·정화·관찰학습·정서 조절·보편성을 강화할 잠재력을 지니되, 각 기제는 의미 처리·강도 조절·실재적 연결·전이 설계라는 고유한 실현 조건을 가지며, 이 조건이 충족되지 않을 때 '정화 없는 자극', '관계 없는 보편성', '맞춤성↔진정성 역설'과 같은 특유의 실패 양태로 귀결됨을 확인하였다. 또한 본 연구는 'AI 챗봇이 이미 인간 수준의 작업동맹을 형성한다'는 실증적 반론을 정면으로 검토하여, 그 증거가 상호적 실질이 아닌 '지각된 동맹'의 외양을 측정한 것이며 도리어 본 연구의 실패 양태를 실증함을 논함으로써, 인간 치료자 매개의 필요를 그 기능 수준에서 더 정교하게 규정한다. 이에 본 연구는 기제 기반 설계 원리와 치료자 매개형 통합 모델을 제안하고, 함의를 이론·임상·정책·기술설계의 네 차원으로 분화하여 제시하며, 후속 실증연구의 방향을 제안한다.
+본 연구는 영상치료(video therapy)의 치료 기제를 고전·1차 이론에 정박하여 심층적으로 재구성하고, 생성형 인공지능(generative AI) 기반 '영상치유'가 각 기제를 어떻게 구현·강화할 수 있는지를 (a) AI 강화 메커니즘, (b) 실현 조건, (c) 미충족 시 실패 양태의 세 축으로 분석하여 그 가능성과 한계를 구조적으로 규명하는 데 목적이 있다. 영상치료는 동일시와 투사, 정서적 정화(catharsis), 보편성(universality), 관찰학습, 정서 조절, 그리고 치료적 대화의 매개라는 정교한 기제 위에서 발전해 왔으며, 그 효과는 국내외 연구를 통해 보고되어 왔다. 본 연구는 이들 기제를 정신역동 이론, Scheff의 정화 모형, Bandura의 사회학습이론, Foa와 Kozak의 정서처리이론, Gallese와 Goldman의 체화된 시뮬레이션론, Green과 Brock의 서사 수송 이론, McAdams의 내러티브 정체성 이론, Deci와 Ryan의 자기결정성 이론, 그리고 Bordin의 작업동맹 개념에 정박하여 더 깊이 전개하였다. 텍스트-투-비디오(text-to-video) 생성 모델의 발전으로 개인 맞춤형 영상을 즉시 생성하는 일이 가능해지면서, AI 영상치유는 이들 기제를 새로운 방식으로 구현할 잠재력을 지니게 되었다. 분석 결과, AI 영상치유는 맞춤성·즉시성·상호작용성을 통해 동일시·정화·관찰학습·정서 조절·보편성을 강화할 잠재력을 지니되, 각 기제는 의미 처리·강도 조절·실재적 연결·전이 설계라는 고유한 실현 조건을 가지며, 이 조건이 충족되지 않을 때 '정화 없는 자극', '관계 없는 보편성', '맞춤성↔진정성 역설'과 같은 특유의 실패 양태로 귀결됨을 확인하였다. 또한 본 연구는 'AI 챗봇이 이미 인간 수준의 작업동맹을 형성한다'는 실증적 반론을 정면으로 검토하여, 그 증거가 상호적 실질이 아닌 '지각된 동맹'의 외양을 측정한 것이며 도리어 본 연구의 실패 양태를 실증함을 논함으로써, 인간 치료자 매개의 필요를 그 기능 수준에서 더 정교하게 규정한다. 이에 본 연구는 기제 기반 설계 원리와 치료자 매개형 통합 모델을 제안하고, 함의를 이론·임상·정책·기술설계의 네 차원으로 분화하여 제시하며, 후속 실증연구의 방향을 검증 가능한 일곱 개의 명제로 정식화하여 제안한다.
 
 **주제어**: AI 영상치유, 영상치료, 치료 기제, 동일시, 정서적 정화, 서사 수송, 치료적 동맹
 
@@ -26,7 +26,7 @@
 
 ## Abstract
 
-This study aims to reconstruct in depth the therapeutic mechanisms of video therapy by anchoring them in classical and primary theory, and to analyze, mechanism by mechanism, how generative artificial intelligence (AI)–based "video healing" can implement and strengthen each mechanism along three axes: (a) the AI-enhancement mechanism, (b) the conditions for realization, and (c) the failure mode that arises when those conditions are unmet. Video therapy has developed upon sophisticated mechanisms—identification and projection, emotional catharsis, universality, observational learning, affect regulation, and the mediation of therapeutic dialogue. This study anchors these mechanisms in psychodynamic theory, Scheff's model of catharsis, Bandura's social learning theory, Foa and Kozak's emotional processing theory, Gallese and Goldman's embodied simulation account, Green and Brock's narrative transportation theory, McAdams's narrative identity theory, Deci and Ryan's self-determination theory, and Bordin's concept of the working alliance. As text-to-video generative models advance, AI video healing has come to possess the potential to implement these mechanisms in novel ways. The analysis confirms that AI video healing can strengthen identification, catharsis, observational learning, affect regulation, and universality through personalization, immediacy, and interactivity; however, each mechanism carries its own conditions for realization—meaning processing, intensity modulation, real human connection, and transfer design—and when these are unmet, the mechanism degrades into characteristic failure modes such as "stimulation without catharsis," "universality without relationship," and the "personalization–authenticity paradox." The study also directly addresses the empirical counterargument that AI chatbots already form human-level working alliances, arguing that such evidence measures the appearance of a "perceived alliance" rather than its reciprocal substance and in fact instantiates the very failure modes identified here, thereby specifying more precisely—at the level of function—why human therapist mediation remains necessary. Accordingly, this study proposes mechanism-based design principles and a therapist-mediated integrative model, differentiates the implications into theoretical, clinical, policy, and technical-design dimensions, and suggests directions for future empirical research.
+This study aims to reconstruct in depth the therapeutic mechanisms of video therapy by anchoring them in classical and primary theory, and to analyze, mechanism by mechanism, how generative artificial intelligence (AI)–based "video healing" can implement and strengthen each mechanism along three axes: (a) the AI-enhancement mechanism, (b) the conditions for realization, and (c) the failure mode that arises when those conditions are unmet. Video therapy has developed upon sophisticated mechanisms—identification and projection, emotional catharsis, universality, observational learning, affect regulation, and the mediation of therapeutic dialogue. This study anchors these mechanisms in psychodynamic theory, Scheff's model of catharsis, Bandura's social learning theory, Foa and Kozak's emotional processing theory, Gallese and Goldman's embodied simulation account, Green and Brock's narrative transportation theory, McAdams's narrative identity theory, Deci and Ryan's self-determination theory, and Bordin's concept of the working alliance. As text-to-video generative models advance, AI video healing has come to possess the potential to implement these mechanisms in novel ways. The analysis confirms that AI video healing can strengthen identification, catharsis, observational learning, affect regulation, and universality through personalization, immediacy, and interactivity; however, each mechanism carries its own conditions for realization—meaning processing, intensity modulation, real human connection, and transfer design—and when these are unmet, the mechanism degrades into characteristic failure modes such as "stimulation without catharsis," "universality without relationship," and the "personalization–authenticity paradox." The study also directly addresses the empirical counterargument that AI chatbots already form human-level working alliances, arguing that such evidence measures the appearance of a "perceived alliance" rather than its reciprocal substance and in fact instantiates the very failure modes identified here, thereby specifying more precisely—at the level of function—why human therapist mediation remains necessary. Accordingly, this study proposes mechanism-based design principles and a therapist-mediated integrative model, differentiates the implications into theoretical, clinical, policy, and technical-design dimensions, and formalizes directions for future empirical research as seven testable propositions.
 
 **Keywords**: AI video healing, video therapy, therapeutic mechanisms, identification, emotional catharsis, narrative transportation, therapeutic alliance
 
@@ -106,11 +106,11 @@ AI 영상치유에 대한 기존 논의는 주로 '기술이 무엇을 할 수 �
 
 동일시와 투사는 영상치료의 가장 기본적인 기제이다. 내담자는 영상 속 인물·상황에 자신을 투영하여, 직접 말하기 어려운 감정과 갈등을 안전한 심리적 거리에서 다룬다. 이 기제의 뿌리는 정신역동 이론의 방어기제 개념에 있다. 투사는 받아들이기 어려운 자기 내부의 감정·충동을 외부 대상에게 귀속시키는 과정이며, 동일시는 타인의 속성을 자기 안으로 받아들이는 과정으로, 영상 관람은 이 두 과정이 안전하게 일어날 무대를 제공한다. Hesley와 Hesley(2001)는 치료자가 내담자의 호소 문제와 관련된 영화를 선별하고 시청 후 대화를 통해 인물의 갈등과 내담자의 경험을 연결하는 '비디오워크(videowork)' 기법을 체계화하였다.
 
-신경과학적 차원에서 동일시는 거울뉴런 체계와 '체화된 시뮬레이션(embodied simulation)'으로 재조명된다. Gallese와 Goldman(1998)에 따르면, 타인의 행위를 관찰할 때 관찰자의 운동·정서 표상이 마치 자신이 그 행위를 수행하거나 그 정서를 경험하는 것처럼 활성화되며, 이 자동적·무의식적 시뮬레이션이 타인의 마음을 이해하는 신경 기반이 된다. 영상 속 인물에 대한 동일시는 이러한 시뮬레이션 기제가 서사적 맥락에서 작동한 결과로 이해할 수 있다. 한편 서사 몰입의 관점에서 Green과 Brock(2000)은 이야기 세계로 '수송'된 정도가 클수록 인물에 대한 호의적 평가와 이야기 일관적 신념이 증가함을 실험적으로 보였는데, 이는 동일시가 단순한 감정 이입을 넘어 신념·태도 변화의 통로가 됨을 시사한다. 국내 연구에서도 위기청소년 대상 집단영화치료가 동일시를 통해 정서조절력을 향상시키고 문제행동을 감소시킨 것으로 보고되었다(강은주, 천성문, 2011). 다만 이론이 일관되게 요구하는 것은, 투사·동일시로 환기된 내용이 *해석*을 통해 자기 이해로 전환되어야 한다는 점이다. 환기 자체는 치료가 아니며, 거울에 비친 상을 자기 것으로 통합하는 작업이 동반될 때 비로소 통찰이 된다. 이 '환기→해석→통합'의 조건은 곧 AI 영상치유가 동일시 기제를 구현할 가능성을 판정하는 준거가 된다. 즉 맞춤 영상이 투사·동일시를 더 강하게 환기하더라도, 그 환기를 자기 이해로 전환하는 해석 과정을 시스템이나 치료자가 보장하지 못하면 그 가능성은 효과로 실현되지 못한다.
+신경과학적 차원에서 동일시는 거울뉴런 체계와 '체화된 시뮬레이션(embodied simulation)'으로 재조명된다. Gallese와 Goldman(1998)에 따르면, 타인의 행위를 관찰할 때 관찰자의 운동·정서 표상이 마치 자신이 그 행위를 수행하거나 그 정서를 경험하는 것처럼 활성화되며, 이 자동적·무의식적 시뮬레이션이 타인의 마음을 이해하는 신경 기반이 된다. 영상 속 인물에 대한 동일시는 이러한 시뮬레이션 기제가 서사적 맥락에서 작동한 결과로 이해할 수 있다. 다만 거울뉴런에 기반한 강한 형태의 시뮬레이션론은 비판에 직면해 있음을 분명히 해 둘 필요가 있다. Hickok(2009)은 거울뉴런이 곧 행위·정서 이해의 신경 기반이라는 주장에 대해, 인간 거울뉴런의 직접 증거가 빈약하고 운동 표상의 활성화가 이해의 *원인*인지 *결과*인지 불분명하다는 등 여러 문제를 제기하였다. 본 연구는 이 비판을 수용하되, 동일시 기제의 설명력이 거울뉴런 가설의 진위에 의존하지 않음을 강조한다. 즉 본고가 취하는 것은 '관찰자가 인물의 경험을 마치 자기 것처럼 *기능적으로* 모의한다'는 약한·기능적 수준의 체화된 시뮬레이션이며, 이는 신경 실현 기제에 관한 특정 주장과 독립적으로 서사 수송(Green & Brock, 2000)과 정신역동적 동일시 개념만으로도 지지된다. 따라서 맞춤 영상이 동일시를 강화한다는 본 연구의 논지는 거울뉴런 논쟁의 향방과 무관하게 유지된다. 한편 서사 몰입의 관점에서 Green과 Brock(2000)은 이야기 세계로 '수송'된 정도가 클수록 인물에 대한 호의적 평가와 이야기 일관적 신념이 증가함을 실험적으로 보였는데, 이는 동일시가 단순한 감정 이입을 넘어 신념·태도 변화의 통로가 됨을 시사한다. 국내 연구에서도 위기청소년 대상 집단영화치료가 동일시를 통해 정서조절력을 향상시키고 문제행동을 감소시킨 것으로 보고되었다(강은주, 천성문, 2011). 다만 이론이 일관되게 요구하는 것은, 투사·동일시로 환기된 내용이 *해석*을 통해 자기 이해로 전환되어야 한다는 점이다. 환기 자체는 치료가 아니며, 거울에 비친 상을 자기 것으로 통합하는 작업이 동반될 때 비로소 통찰이 된다. 이 '환기→해석→통합'의 조건은 곧 AI 영상치유가 동일시 기제를 구현할 가능성을 판정하는 준거가 된다. 즉 맞춤 영상이 투사·동일시를 더 강하게 환기하더라도, 그 환기를 자기 이해로 전환하는 해석 과정을 시스템이나 치료자가 보장하지 못하면 그 가능성은 효과로 실현되지 못한다.
 
 ### 2. 정서적 정화(catharsis)
 
-정화는 영상이 환기한 감정을 표출·경험함으로써 긴장이 해소되고 정서가 정리되는 기제이다. 정화는 집단·개인 심리치료의 핵심 치료 요인으로 오랫동안 논의되어 왔다(Yalom & Leszcz, 2020). 본 연구는 정화를 단순한 '감정 배출'이 아니라 Scheff(1979)의 거리두기 모형으로 재구성한다. Scheff에 따르면 치료적 정화는 두 조건의 동시 충족을 요구한다. 첫째는 억압된 고통의 *환기*이며, 둘째는 참여자가 그 고통의 원천으로부터 적절히 *거리를 둔(distancing)* 상태, 즉 그 상황을 '자신의 것이면서 동시에 자신의 것이 아닌' 것으로 동시에 경험하는 미적 거리(aesthetic distance)이다. 거리가 너무 가까우면 압도(underdistancing)가, 너무 멀면 무관여(overdistancing)가 일어나며, 오직 균형 잡힌 거리에서만 정서적 방출이 인지적 처리로 이어진다. 이는 정서처리이론과도 공명한다. Foa와 Kozak(1986)은 공포 구조의 활성화가 교정적 정보의 통합으로 이어질 때 비로소 정서처리가 완성된다고 보았는데, 활성화(환기)만으로는 불충분하며 교정적 처리(거리두기·재구성)가 동반되어야 한다는 점에서 Scheff의 모형과 구조적으로 일치한다. 따라서 정화는 안전한 환경에서 적절한 강도와 거리에서 일어날 때만 치료적이며, 과도하거나 통제되지 않은 정서 환기는 오히려 재외상화(retraumatization)로 이어질 수 있다. 이 점에서 정화 기제는 AI 영상치유의 '가능성'을 평가할 때 강도 조절·미적 거리라는 작동 조건을 필수 준거로 부과한다. 즉 즉시·반복 생성이라는 AI의 강점이 정화의 가능성을 높이는지 아니면 재외상화의 위험으로 전도되는지는, 이 거리두기 조건의 충족 여부에 달려 있다.
+정화는 영상이 환기한 감정을 표출·경험함으로써 긴장이 해소되고 정서가 정리되는 기제이다. 정화는 집단·개인 심리치료의 핵심 치료 요인으로 오랫동안 논의되어 왔다(Yalom & Leszcz, 2020). 본 연구는 정화를 단순한 '감정 배출'이 아니라 Scheff(1979)의 거리두기 모형으로 재구성한다. Scheff에 따르면 치료적 정화는 두 조건의 동시 충족을 요구한다. 첫째는 억압된 고통의 *환기*이며, 둘째는 참여자가 그 고통의 원천으로부터 적절히 *거리를 둔(distancing)* 상태, 즉 그 상황을 '자신의 것이면서 동시에 자신의 것이 아닌' 것으로 동시에 경험하는 미적 거리(aesthetic distance)이다. 거리가 너무 가까우면 압도(underdistancing)가, 너무 멀면 무관여(overdistancing)가 일어나며, 오직 균형 잡힌 거리에서만 정서적 방출이 인지적 처리로 이어진다. 이는 정서처리이론과도 공명한다. Foa와 Kozak(1986)은 공포 구조의 활성화가 교정적 정보의 통합으로 이어질 때 비로소 정서처리가 완성된다고 보았는데, 활성화(환기)만으로는 불충분하며 교정적 처리(거리두기·재구성)가 동반되어야 한다는 점에서 Scheff의 모형과 구조적으로 일치한다. 다만 정서처리이론은 이후 상당히 갱신되었으며, 본 연구는 그 갱신된 형태를 따른다. 초기 모형이 반복 노출을 통한 불안의 *습관화(habituation)*와 공포 구조의 소거를 강조한 데 비해, Craske 등(2014)의 억제학습모형(inhibitory learning model)은 원래의 공포 연합이 *지워지는* 것이 아니라 새로운 안전 학습이 형성되어 기존 연합과 *경쟁*하며 이를 억제하는 것으로 본다. 이 갱신은 본 연구의 강도 조절 논거를 오히려 강화한다. 즉 회기 내 불안이 낮아지는 것(습관화) 자체는 치료의 핵심이 아니며, 중요한 것은 '두려워한 결과가 일어나지 않았다'는 *교정적 학습*이 형성·인출되는 것이다. 따라서 단순한 정서 환기의 반복은—설령 그것이 일시적 진정을 낳더라도—새로운 교정적 학습을 동반하지 않으면 치료적이지 않으며, 이는 뒤에서 논할 '정화 없는 자극' 실패가 왜 발생하는지를 학습 이론 수준에서 설명한다. 따라서 정화는 안전한 환경에서 적절한 강도와 거리에서, 그리고 교정적 학습이 일어날 수 있는 조건에서 일어날 때만 치료적이며, 과도하거나 통제되지 않은 정서 환기는 오히려 재외상화(retraumatization)로 이어질 수 있다. 이 점에서 정화 기제는 AI 영상치유의 '가능성'을 평가할 때 강도 조절·미적 거리라는 작동 조건을 필수 준거로 부과한다. 즉 즉시·반복 생성이라는 AI의 강점이 정화의 가능성을 높이는지 아니면 재외상화의 위험으로 전도되는지는, 이 거리두기 조건의 충족 여부에 달려 있다.
 
 ### 3. 보편성(universality)
 
@@ -169,9 +169,9 @@ AI 영상치유는 디지털 정신건강 흐름의 일부이다. 176편의 무�
 
 **(a) AI 강화 메커니즘.** AI 영상치유의 맞춤성은 동일시 기제를 강화할 잠재력이 가장 큰 지점이다. 기성 영화에서 적합한 인물을 찾던 방식과 달리, 내담자의 상황·정서를 반영한 맞춤 심상을 생성함으로써 투사의 대상을 정밀화하고 더 정확한 동일시를 유도할 수 있다(Sacilotto et al., 2022). 체화된 시뮬레이션의 관점에서(Gallese & Goldman, 1998), 자신과 더 닮은 인물·상황은 관찰자의 정서·운동 표상을 더 강하게 활성화하므로, 맞춤 콘텐츠는 동일시의 신경적 기반을 효과적으로 자극할 수 있다. 서사 수송 이론(Green & Brock, 2000)에 비추어도, 개인에게 공명하는 서사는 수송을 강화하여 몰입과 동일시를 높인다.
 
-**(b) 실현 조건.** 그러나 투사된 내용을 임상적으로 해석하고 통찰로 연결하는 과정이 동반되어야 한다. 동일시 기제의 본질은 환기가 아니라 통합에 있기 때문이다.
+**(b) 실현 조건.** 그러나 투사된 내용을 임상적으로 해석하고 통찰로 연결하는 과정이 동반되어야 한다. 동일시 기제의 본질은 환기가 아니라 통합에 있기 때문이다. 그 인과적 경로는 다음과 같다. 투사는 받아들이기 어려운 내적 내용을 영상 속 인물에게 *외재화*하여 안전한 거리에서 보게 하지만, 외재화된 내용이 자기 이해로 전환되려면 그것을 다시 자기 것으로 *재내재화*하는 해석 작업이 필요하다. 예컨대 권위적 부모에게 억눌린 분노를 지닌 내담자가 맞춤 영상 속 인물의 저항에 강하게 동일시했다 하더라도, "그 인물의 분노가 당신의 어떤 경험과 닿아 있습니까"라는 치료자의 해석적 개입이 없으면 그 동일시는 자기 서사로 통합되지 못한 채 일회적 카타르시스에 그친다. 즉 환기와 통찰 사이를 잇는 것은 영상의 정교함이 아니라 관계 안에서 이루어지는 의미 부여이다.
 
-**(c) 실패 양태.** 이 조건이 미충족되면 동일시는 자기 통합 없는 정서 자극의 소비로 전락한다. 강한 몰입이 반복되되 그것이 자기 이해로 전환되지 않으면, 내담자는 정서적으로 동요하되 변화하지 않는 상태에 머문다.
+**(c) 실패 양태.** 이 조건이 미충족되면 동일시는 자기 통합 없는 정서 자극의 소비로 전락한다. 구체적으로, 자신의 처지에 꼭 맞는 영상을 반복 시청하며 매번 강하게 동요하지만 그 동요가 "나는 왜 이 장면에서 무너지는가"라는 물음으로 전환되지 않는 내담자를 상정할 수 있다. 이때 맞춤성은 오히려 위험을 키운다. 더 정확히 공명하는 영상일수록 정서적 몰입은 강해지나, 그 강한 몰입이 통찰 없이 반복되면 내담자는 자신의 정서를 *반추(rumination)*하는 회로에 갇혀 정서적으로 동요하되 변화하지 않는 상태에 머문다. 정교한 맞춤이 통찰의 부재를 보상해 주지 못할 뿐 아니라, 통찰 없는 몰입을 더 매끄럽게 반복시킨다는 점이 이 실패의 핵심이다.
 
 ### 2. 정서적 정화의 촉진
 
@@ -193,17 +193,17 @@ AI 영상치유는 디지털 정신건강 흐름의 일부이다. 176편의 무�
 
 **(a) AI 강화 메커니즘.** AI는 특정 내담자에게 필요한 적응적 대처를 시연하는 맞춤 모델링 영상을 생성할 수 있어, 비디오 모델링의 개인화 수준을 높인다(Bandura, 1977). 자신과 유사한 모델은 대리강화와 자기효능감을 높여 동기 단계를 강화할 수 있다.
 
-**(b) 실현 조건.** Bandura(1977)의 네 하위 과정 중 운동재생과 동기는 영상 바깥의 실생활을 요구하므로, 관찰이 행동 변화로 이어지려면 동기 부여·강화·실생활 전이를 지원하는 설계가 필요하다.
+**(b) 실현 조건.** Bandura(1977)의 네 하위 과정 중 운동재생과 동기는 영상 바깥의 실생활을 요구하므로, 관찰이 행동 변화로 이어지려면 동기 부여·강화·실생활 전이를 지원하는 설계가 필요하다. 이 전이는 자동으로 일어나지 않으며 구조화된 가교를 요구한다. 예컨대 사회불안을 지닌 내담자가 영상 속 모델이 모임에서 자기를 소개하는 장면을 관찰했다면, 그 관찰이 행동으로 옮겨지려면 ① 관찰 직후 핵심 행동의 인지적 시연(rehearsal), ② 실생활에서 시도할 최소 과제의 부여(예: "이번 주 한 번 먼저 인사하기"), ③ 시도 결과에 대한 피드백과 강화라는 단계가 결합되어야 한다. 즉 모델링 영상은 행동 변화의 *방아쇠*일 뿐이며, 방아쇠를 실제 발사로 잇는 것은 영상 바깥의 과제·강화 구조이다.
 
-**(c) 실패 양태.** 이 설계가 부재하면 관찰학습은 시청에 그치는 비전이적 학습으로 귀결된다. 적응적 대처를 '보기'는 하되 '하지'는 않는 상태로, 영상 내 학습이 실생활 행동으로 전이되지 않는다.
+**(c) 실패 양태.** 이 설계가 부재하면 관찰학습은 시청에 그치는 비전이적 학습으로 귀결된다. 적응적 대처를 '보기'는 하되 '하지'는 않는 상태로, 영상 내 학습이 실생활 행동으로 전이되지 않는다. 더욱이 이 실패는 자기효능감의 *착각*을 동반할 수 있어 특히 기만적이다. 유능하게 대처하는 모델을 반복 관찰한 내담자는 "나도 할 수 있다"는 대리적 확신을 얻지만, 실제 수행 경험(Bandura가 자기효능감의 가장 강력한 원천으로 꼽은 숙달경험)이 부재한 채 형성된 이 확신은 첫 실패에 쉽게 무너진다. 결과적으로 관찰만 누적한 내담자는 '봤으니 안다'는 느낌과 '해보니 안 된다'는 현실 사이의 괴리로 오히려 무력감이 강화될 수 있다.
 
 ### 5. 정서 조절·안정화의 즉시 지원
 
 **(a) AI 강화 메커니즘.** 맞춤 이완·심상 영상을 즉시·반복 제공함으로써 정서 조절과 안정화를 자기조력(self-help) 형태로 지원할 수 있다(신경아, 2018). 이 기제는 영상 자극과 생리적 반응의 경로가 직접적이어서, AI 영상치유가 비교적 안전하게 강화할 수 있는 영역이다.
 
-**(b) 실현 조건.** 다만 안정화가 필요한 상태인지에 대한 상태 평가, 위기 신호 시의 전문 연계, 그리고 안정화가 회피로 오용되지 않도록 하는 임상적 판단이 전제되어야 한다.
+**(b) 실현 조건.** 다만 안정화가 필요한 상태인지에 대한 상태 평가, 위기 신호 시의 전문 연계, 그리고 안정화가 회피로 오용되지 않도록 하는 임상적 판단이 전제되어야 한다. 핵심은 '언제 가라앉히고 언제 직면할 것인가'의 변별이다. 동일한 불안이라도, 과각성으로 사고가 마비된 급성 상태에서는 안정화가 우선이지만, 회피하던 기억에 다가서는 노출 작업 중의 불안은 처리되어야 할 *치료적 불안*이다. 따라서 안정화 영상의 제공은 사용자의 현재 상태에 대한 평가와 짝을 이루어야 하며, 이 평가 없이는 도구가 정교할수록 오용의 여지도 커진다.
 
-**(c) 실패 양태.** 상태 평가가 결여되면 직면이 필요한 정서를 만성적으로 우회하는 회피의 만성화가, 위기 연계가 결여되면 자·타해 위험 신호를 감지하지 못하는 안전 실패가 나타난다.
+**(c) 실패 양태.** 상태 평가가 결여되면 직면이 필요한 정서를 만성적으로 우회하는 회피의 만성화가, 위기 연계가 결여되면 자·타해 위험 신호를 감지하지 못하는 안전 실패가 나타난다. 전자의 예로, 외상 기억이 떠오를 때마다 즉시 이완 영상으로 회피하는 패턴이 굳어지면 단기적으로는 진정되나 장기적으로는 기억의 처리가 영구히 지연되어 증상이 만성화된다(이는 노출 기반 치료가 회피를 핵심 유지 요인으로 보는 것과 일치한다). 후자의 더 무거운 위험으로, '오늘 너무 힘들다'는 입력을 일상적 스트레스로 처리해 이완 영상만 반복 제공하는 동안 그 입력이 실은 자살 사고의 우회적 표현이었던 경우, 안정화 도구는 위기 개입의 골든타임을 가리는 장막이 될 수 있다. 이 때문에 안정화 기제에는 반드시 위기 신호 탐지와 인간 전문가로의 에스컬레이션 경로가 내장되어야 한다.
 
 ### 6. 대화 매개의 보조: 가능성의 임계
 
@@ -234,6 +234,8 @@ AI 영상치유는 디지털 정신건강 흐름의 일부이다. 176편의 무�
 세 축 분석은 AI 영상치유에 내재한 세 가지 구조적 긴장을 드러낸다.
 
 **첫째, 맞춤성↔진정성 역설.** AI 영상치유의 최대 강점인 맞춤성은 동일시와 수송을 강화하지만(Gallese & Goldman, 1998; Green & Brock, 2000), 동시에 진정성의 문제를 제기한다. 보편성의 치료적 힘이 실재하는 타인과의 상호 인정에서 비롯된다면(Yalom & Leszcz, 2020), 알고리즘이 생성한 '나에게 꼭 맞는' 서사는 역설적으로 실재적 연결의 부재를 은폐할 수 있다. 더 정교한 맞춤일수록 더 그럴듯한 공감의 환영을 제공하나, 그 환영이 실재적 인정을 대체할 수는 없다. 맞춤성의 강화가 진정성의 약화로 이어질 수 있다는 점이 이 역설의 핵심이다.
+
+이 역설은 디지털 기술과 관계성을 다룬 일련의 논의에 정박할 때 그 구조가 더 분명해진다. Turkle(2011)은 기술이 *관계의 요구는 덜어 주면서 동반의 환영은 제공*함으로써, 사람들이 "기술에는 더 많은 것을, 서로에게는 더 적은 것을 기대"하게 되는 전도를 진단하였다. 응답하되 아무것도 요구하지 않는 맞춤 영상은 바로 이 전도의 전형적 사례이다. 즉 그것은 관계의 *위안*을 모사하되 관계의 *부담*—타자의 응답 불가능성, 어긋남, 인정을 구하는 위험—을 제거하며, 그 제거된 부담이야말로 치료적 변화가 일어나는 자리이다(Bordin, 1979; Ryan & Deci, 2000). 한편 정보환경의 차원에서 Pariser(2011)의 '필터버블' 논의는 알고리즘적 개인화가 개인을 자기확증적 정보 세계에 가둠을 보였는데, 치유 맥락에 이를 옮기면 '나에게 꼭 맞는' 서사의 반복은 치료가 요구하는 생산적 마찰—기대의 위반, 낯선 관점, 타자성과의 대면—을 체계적으로 제거할 위험을 낳는다. 요컨대 맞춤성↔진정성 역설은 단순한 '진짜 대 가짜'의 문제가 아니라, *관계의 부담과 타자성을 제거한 맞춤이 역설적으로 치료적 변화의 조건 자체를 제거한다*는 구조적 문제이며, 이는 본 연구가 일관되게 강조해 온 상호적 인정이라는 실현 조건의 또 다른 표현이다.
 
 **둘째, 정화 없는 자극.** 즉시성·반복성은 정서 환기의 접근성을 높이지만, Scheff(1979)와 Foa·Kozak(1986)이 공히 요구하는 거리두기·교정적 처리가 결여되면 환기는 처리로 이어지지 못한다. 자극은 풍부하되 정화는 부재한 상태, 즉 정서적으로 끊임없이 동요하되 해소·통합되지 않는 상태가 AI 영상치유의 가장 흔한 실패 양태가 될 수 있다.
 
@@ -289,7 +291,19 @@ AI 영상치유는 디지털 정신건강 흐름의 일부이다. 176편의 무�
 
 본 연구는 이론적 고찰에 머문다는 점, 빠르게 변화하는 기술의 특정 시점을 다룬다는 점에서 한계를 지닌다. 후속 연구를 위한 제언은 위의 선행연구 비교에서 직접 도출된다. 첫째, 선행 메타분석(Linardon et al., 2024; Valentine et al., 2025)이 '효과를 매개하는 요인'을 통계적으로 확인하는 데 그쳤으므로, 후속 연구는 본 연구가 구체화한 *실현 조건*(미적 거리·실재적 연결·전이 설계·의미 처리)을 매개변인으로 명시적으로 모형화하여, 기제별로 AI 영상치유의 효과를 검증하는 실증연구(예: 동일시·정화·안정화를 종속변인으로 한 통제 연구)를 수행할 필요가 있다. 둘째, Parks 등(2025)·Wang 등(2025)이 제기한 안전성 우려에 대응하여, 본 연구가 제시한 실패 양태(정화 없는 자극, 관계 없는 보편성, 재외상화, 위기 미감지 등)의 실제 발생 여부와 발생 조건을 검증하는 연구가 요구된다. 셋째, Sacilotto 등(2022)이 지적한 기제 통합틀의 부재를 메우는 방향으로, 기제 정합적 설계와 실패 양태 차단 설계의 구체적 구현 및 그 안전성·수용성을 검증하는 연구가 필요하다. 넷째, 장규현과 서영석(2022)이 확인한 관계적 깊이의 한계를 보완하기 위해, 치료자-AI 협업 프로토콜을 개발하고 그 임상적 효과를 검증하는 연구가 필요하다.
 
-본 연구는 AI 영상치유의 가능성을 검증된 영상치료 기제의 관점에서, 가능성·조건·실패 양태의 세 축으로 구조적으로 분석할 이론적 토대와 설계 원리를 제공했다는 데 의의가 있다.
+나아가 본 연구의 세 축 분석은 후속 실증연구가 직접 검증할 수 있는 일련의 명제로 정식화된다. 각 명제는 '실현 조건이 충족될 때에만 가능성이 효과로 전환된다'는 핵심 주장을, 기제별로 조절·매개 구조를 갖는 검증 가능한 형태로 환원한 것이다.
+
+- **P1 (동일시).** 맞춤 영상은 동일시 강도를 높이나, 그 강도가 자기 통찰·증상 완화로 전환되는 정도는 해석적 의미 처리에 의해 *조절*된다. 의미 처리가 부재하면 동일시 강도와 반추(rumination) 간 정적 관계가 나타난다. (조절된 매개)
+- **P2 (정화).** 즉시·반복 정서 환기의 효과는 미적 거리·강도 조절 및 교정적 학습의 동반 여부에 의해 *조절*된다. 이들이 부재한 고강도 반복 환기는 증상 완화가 아니라 정서적 동요·재외상화 지표의 증가를 예측한다. (조절효과)
+- **P3 (보편성).** AI 일방향 맞춤 서사는 *지각된* 연결감을 높이나, 실제 외로움·고립의 감소는 실재하는 타인·집단과의 상호적 인정 경험에 의해 *매개*된다. 상호 인정이 부재하면 지각된 연결감과 실제 고립이 분리(괴리)된다. (매개)
+- **P4 (관찰학습).** 맞춤 모델링 영상의 실제 행동 변화 효과는 실생활 전이 설계(과제 부여·강화·피드백)에 의해 *조절*된다. 전이 설계가 부재하면 지각된 자기효능감과 실제 수행 간 괴리가 증가한다. (조절효과)
+- **P5 (정서 조절).** 안정화 영상은 상태 평가와 결합될 때 적응적이나, 상태 평가가 부재하면 경험 회피(experiential avoidance)를 *매개*로 장기 증상을 악화시킨다. (매개)
+- **P6 (대화 매개·동맹).** 내러티브 정체성의 변화(생애 서사로의 의미 통합)는 'AI 단독' 조건보다 '치료자 매개' 조건에서 유의하게 크며, 이 차이는 작업동맹의 상호적 유대에 의해 *매개*된다. (집단 비교 + 매개)
+- **P7 (맞춤성↔진정성).** 맞춤성 수준이 높아질수록 단기 몰입·만족은 증가하나, 실재적 관계로의 이행(전문적 도움 추구·대면 관계 형성)은 오히려 감소한다. (부적 관계 또는 역U)
+
+이들 명제는 본 연구가 구체화한 실현 조건을 매개·조절 변인으로 모형화하므로, 선행 메타분석(Linardon et al., 2024; Valentine et al., 2025)이 통계적으로만 확인한 '매개 요인'을 기제 수준에서 조작적으로 검증하는 좌표를 제공한다.
+
+본 연구는 AI 영상치유의 가능성을 검증된 영상치료 기제의 관점에서, 가능성·조건·실패 양태의 세 축으로 구조적으로 분석할 이론적 토대와 설계 원리를 제공하고, 이를 검증 가능한 명제로 정식화하여 후속 실증연구의 좌표를 제시했다는 데 의의가 있다.
 
 ---
 
@@ -317,6 +331,8 @@ Beatty, C., Malik, T., Meheli, S., & Sinha, C. (2022). Evaluating the therapeuti
 
 Bordin, E. S. (1979). The generalizability of the psychoanalytic concept of the working alliance. *Psychotherapy: Theory, Research & Practice, 16*(3), 252–260. https://doi.org/10.1037/h0085885
 
+Craske, M. G., Treanor, M., Conway, C. C., Zbozinek, T., & Vervliet, B. (2014). Maximizing exposure therapy: An inhibitory learning approach. *Behaviour Research and Therapy, 58*, 10–23. https://doi.org/10.1016/j.brat.2014.04.006
+
 Cuijpers, P., Reijnders, M., & Huibers, M. J. H. (2019). The role of common factors in psychotherapy outcomes. *Annual Review of Clinical Psychology, 15*, 207–231. https://doi.org/10.1146/annurev-clinpsy-050718-095424
 
 Darcy, A., Daniels, J., Salinger, D., Wicks, P., & Robinson, A. (2021). Evidence of human-level bonds established with a digital conversational agent: Cross-sectional, retrospective observational study. *JMIR Formative Research, 5*(5), e27868. https://doi.org/10.2196/27868
@@ -333,6 +349,8 @@ Green, M. C., & Brock, T. C. (2000). The role of transportation in the persuasiv
 
 Hesley, J. W., & Hesley, J. G. (2001). *Rent two films and let's talk in the morning: Using popular movies in psychotherapy* (2nd ed.). Wiley.
 
+Hickok, G. (2009). Eight problems for the mirror neuron theory of action understanding in monkeys and humans. *Journal of Cognitive Neuroscience, 21*(7), 1229–1243. https://doi.org/10.1162/jocn.2009.21189
+
 Linardon, J., Cuijpers, P., Carlbring, P., Messer, M., & Fuller-Tyszkiewicz, M. (2024). Current evidence on the efficacy of mental health smartphone apps for symptoms of depression and anxiety: A meta-analysis of 176 randomized controlled trials. *World Psychiatry.* https://pmc.ncbi.nlm.nih.gov/articles/PMC10785982/
 
 Liu, Y., Zhang, K., Li, Y., Yan, Z., Gao, C., Chen, R., Yuan, Z., Huang, Y., Sun, H., Gao, J., He, L., & Sun, L. (2024). *Sora: A review on background, technology, limitations, and opportunities of large vision models* [Preprint]. arXiv. https://doi.org/10.48550/arXiv.2402.17177
@@ -340,6 +358,8 @@ Liu, Y., Zhang, K., Li, Y., Yan, Z., Gao, C., Chen, R., Yuan, Z., Huang, Y., Sun
 McAdams, D. P. (2001). The psychology of life stories. *Review of General Psychology, 5*(2), 100–122. https://doi.org/10.1037/1089-2680.5.2.100
 
 Page, M. J., McKenzie, J. E., Bossuyt, P. M., Boutron, I., Hoffmann, T. C., Mulrow, C. D., Shamseer, L., Tetzlaff, J. M., Akl, E. A., Brennan, S. E., Chou, R., Glanville, J., Grimshaw, J. M., Hróbjartsson, A., Lalu, M. M., Li, T., Loder, E. W., Mayo-Wilson, E., McDonald, S., … Moher, D. (2021). The PRISMA 2020 statement: An updated guideline for reporting systematic reviews. *BMJ, 372*, n71. https://doi.org/10.1136/bmj.n71
+
+Pariser, E. (2011). *The filter bubble: What the Internet is hiding from you.* Penguin Press.
 
 Parks, A., Travers, E., Perera-Delcourt, R., Major, M., Economides, M., & Mullan, P. (2025). Is this chatbot safe and evidence-based? A call for the critical evaluation of generative AI mental health chatbots. *Journal of Participatory Medicine, 17*(1), e69534. https://doi.org/10.2196/69534
 
@@ -350,6 +370,8 @@ Sacilotto, E., Salvato, G., Villa, F., Salvi, F., & Bottini, G. (2022). Through 
 Scheff, T. J. (1979). *Catharsis in healing, ritual, and drama.* University of California Press.
 
 Sun, R., Zhang, Y., Shah, T., Sun, J., Zhang, S., Li, W., Duan, H., Wei, B., & Ranjan, R. (2024). *From Sora what we can see: A survey of text-to-video generation* [Preprint]. arXiv. https://doi.org/10.48550/arXiv.2405.10674
+
+Turkle, S. (2011). *Alone together: Why we expect more from technology and less from each other.* Basic Books.
 
 Valentine, L., Hinton, J. D. X., Bajaj, K., Boyd, L., O'Sullivan, S., Sorenson, R. P., Bell, I. H., Sobredo Vega, M., Liu, P., Peters, W., Mangelsdorf, S. N., Wren, T. W., Moller, C., Cross, S., McEnery, C., Bendall, S., Nicholas, J., & Alvarez-Jimenez, M. (2025). A meta-analysis of persuasive design, engagement, and efficacy in 92 RCTs of mental health apps. *npj Digital Medicine, 8*, Article 229. https://doi.org/10.1038/s41746-025-01567-5
 

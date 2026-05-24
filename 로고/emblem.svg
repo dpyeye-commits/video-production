@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="한국자연융합학회 엠블럼">
+  <defs>
+    <linearGradient id="leaf" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2E8B6F"/><stop offset="1" stop-color="#1F5D4C"/>
+    </linearGradient>
+    <path id="topArc" d="M22,100 A78,78 0 0 1 178,100" fill="none"/>
+    <path id="botArc" d="M26,100 A74,74 0 0 0 174,100" fill="none"/>
+  </defs>
+
+  <!-- seal rings -->
+  <circle cx="100" cy="100" r="92" fill="none" stroke="#1F5D4C" stroke-width="2.2"/>
+  <circle cx="100" cy="100" r="86" fill="none" stroke="#C2A14D" stroke-width="1"/>
+  <circle cx="100" cy="100" r="64" fill="none" stroke="#C2A14D" stroke-width="0.8" stroke-dasharray="0.5 3.4" stroke-linecap="round"/>
+
+  <!-- circular text: top Korean, bottom English -->
+  <g font-family="'Noto Serif KR','Nanum Myeongjo',serif" font-weight="600">
+    <text font-size="13" letter-spacing="7" fill="#1F5D4C"><textPath href="#topArc" startOffset="50%" text-anchor="middle">한국자연융합학회</textPath></text>
+    <text font-size="7.2" letter-spacing="2" fill="#3A6B5B"><textPath href="#botArc" startOffset="50%" text-anchor="middle">KOREAN SOCIETY OF NATURAL CONVERGENCE</textPath></text>
+  </g>
+  <g fill="#C2A14D"><path d="M14,100l3-3 3,3-3,3z"/><path d="M186,100l-3-3-3,3 3,3z"/></g>
+
+  <!-- sprout (새싹) -->
+  <!-- soil arc -->
+  <path d="M74,146 Q100,153 126,146" fill="none" stroke="#1F5D4C" stroke-width="2.2" stroke-linecap="round"/>
+  <!-- stem -->
+  <path d="M100,146 C99,126 100,114 100,86" fill="none" stroke="#1F5D4C" stroke-width="3.2" stroke-linecap="round"/>
+  <!-- right cotyledon leaf -->
+  <path d="M100,120 C118,118 136,106 148,84 C124,92 108,104 100,114 Z" fill="url(#leaf)"/>
+  <!-- left cotyledon leaf -->
+  <path d="M100,120 C82,118 64,106 52,84 C76,92 92,104 100,114 Z" fill="url(#leaf)"/>
+  <!-- top new bud (새순) -->
+  <path d="M100,90 C106,80 105,70 100,62 C95,70 94,80 100,90 Z" fill="#2E8B6F"/>
+  <!-- veins -->
+  <g fill="none" stroke="#8FB9A8" stroke-width="0.9" stroke-linecap="round" opacity="0.85">
+    <path d="M101,116 C118,112 132,102 144,86"/>
+    <path d="M99,116 C82,112 68,102 56,86"/>
+    <path d="M100,88 L100,66"/>
+  </g>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 240" width="820" height="240" role="img" aria-label="한국자연융합학회 로고">
+  <defs>
+    <linearGradient id="leaf2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2E8B6F"/><stop offset="1" stop-color="#1F5D4C"/>
+    </linearGradient>
+    <path id="t2" d="M40,120 A88,88 0 0 1 216,120" fill="none"/>
+    <path id="b2" d="M44,120 A84,84 0 0 0 212,120" fill="none"/>
+  </defs>
+
+  <!-- emblem -->
+  <g transform="translate(128,120)">
+    <circle r="92" fill="none" stroke="#1F5D4C" stroke-width="2.2"/>
+    <circle r="86" fill="none" stroke="#C2A14D" stroke-width="1"/>
+    <g font-family="'Noto Serif KR','Nanum Myeongjo',serif" font-weight="600">
+      <text font-size="12.5" letter-spacing="6.5" fill="#1F5D4C"><textPath href="#t2" startOffset="50%" text-anchor="middle">한국자연융합학회</textPath></text>
+      <text font-size="6.6" letter-spacing="1.6" fill="#3A6B5B"><textPath href="#b2" startOffset="50%" text-anchor="middle">KOREAN SOCIETY OF NATURAL CONVERGENCE</textPath></text>
+    </g>
+    <path d="M0,46 Q26,53 52,46" transform="translate(-26,0)" fill="none" stroke="#1F5D4C" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M0,46 C-1,26 0,14 0,-14" fill="none" stroke="#1F5D4C" stroke-width="3.2" stroke-linecap="round"/>
+    <path d="M0,20 C18,18 36,6 48,-16 C24,-8 8,4 0,14 Z" fill="url(#leaf2)"/>
+    <path d="M0,20 C-18,18 -36,6 -48,-16 C-24,-8 -8,4 0,14 Z" fill="url(#leaf2)"/>
+    <path d="M0,-10 C6,-20 5,-30 0,-38 C-5,-30 -6,-20 0,-10 Z" fill="#2E8B6F"/>
+    <g fill="none" stroke="#8FB9A8" stroke-width="0.9" stroke-linecap="round" opacity="0.85">
+      <path d="M1,16 C18,12 32,2 44,-14"/><path d="M-1,16 C-18,12 -32,2 -44,-14"/><path d="M0,-12 L0,-34"/>
+    </g>
+  </g>
+
+  <line x1="248" y1="58" x2="248" y2="182" stroke="#C2A14D" stroke-width="1"/>
+
+  <!-- wordmark -->
+  <g font-family="'Noto Serif KR','Nanum Myeongjo',serif">
+    <text x="280" y="108" font-size="50" font-weight="700" fill="#16241F" letter-spacing="7">한국자연융합학회</text>
+    <text x="283" y="148" font-size="15.5" font-weight="400" fill="#1F5D4C" letter-spacing="4.5" font-family="Georgia,serif">KOREAN SOCIETY OF NATURAL CONVERGENCE</text>
+    <text x="283" y="174" font-size="12" font-weight="400" fill="#7B8A82" letter-spacing="4">EST. 2026 · SEOUL, KOREA</text>
+  </g>
+</svg>
